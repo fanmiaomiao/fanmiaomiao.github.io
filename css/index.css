@@ -6,7 +6,7 @@
 body {
 	font-size: 14px;
 	font-family: "微软雅黑";
-	background: #E3E3E5 url(./images/bground.jpg) 50% top scroll no-repeat;color:#5d5d5d;
+	background: #E3E3E5 url(../images/bground.jpg) /*50% top scroll no-repeat;color:#5d5d5d*/;
 }
 a {
 	text-decoration:none;
@@ -261,17 +261,21 @@ img {
     background: #fff;
     border-radius: 1px;
         width: 1000px;
-    height: 50px;
+    height: 30px;
     margin: 10px auto;
     border-top: 1px solid #ccc;
+	background:black;
+	filter:alpha(opacity:30);
+	bottom: 0px;left:24%
 }
 #footer p{
 	text-align: center;
 	font-size: 14px;
+	color:white;
 }
 #footer a{
 	font-size: 14px;
-    color: #78757A;
+    color: white;
 }
 .category {
     margin: 0 -20px;
