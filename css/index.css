@@ -1,4 +1,4 @@
-/*@charset "utf-8"*/
+@charset "utf-8"
 * {
 	margin:0;
 	padding:0px; 
@@ -262,21 +262,17 @@ img {
     background: #fff;
     border-radius: 1px;
         width: 1000px;
-    height: 30px;
+    height: 50px;
     margin: 10px auto;
     border-top: 1px solid #ccc;
-	background:black;
-	filter:alpha(opacity:30);
-	bottom: 0px;left:24%
 }
 #footer p{
 	text-align: center;
 	font-size: 14px;
-	color:white;
 }
 #footer a{
 	font-size: 14px;
-    color: white;
+    color: #78757A;
 }
 .category {
     margin: 0 -20px;
