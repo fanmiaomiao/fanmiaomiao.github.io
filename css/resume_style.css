@@ -640,10 +640,12 @@ div.skills{
 .design{
     left: 13em;
     font-family: jokerman;
+    font-size: 40px;
     color: darkorange;
 }
 .code{
     right: 13em;
+    font-size: 40px;
     color: #292929;
 }
 .contact div.bottom{
