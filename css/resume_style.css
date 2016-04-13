@@ -517,7 +517,7 @@ div.skills{
 .halfPage {
   position: absolute;
   top: 0;
-  width: 50%;
+  width: 70%;
   height: 100vh;
 }
 .halfPageL {
@@ -566,7 +566,7 @@ div.skills{
     padding: .5em 0 0;
     margin: 1.5em 0 0 .6em;;
     border-top: .1em dashed coral;
-    width: 23em;
+    width: 37em;
 }
 .tiltPage .hireMe{
     font-size: 1.9em;
@@ -597,18 +597,7 @@ div.skills{
           transform-origin: 100% 0;
     background: #292929;
 }
-.halfPageR .tiltPage_me {
-  padding-left: 30%;
-  padding-right: 30%;
-  -webkit-transform-origin: 0 100%;
-      -ms-transform-origin: 0 100%;
-          transform-origin: 0 100%;
-  background-image: url("http://7xonct.com1.z0.glb.clouddn.com/CV/dasheng.jpg");
-  background-position: right;
-}
-
 /*qingxie jieshu*/
-
 
 
 /*Contact me*/
@@ -630,7 +619,7 @@ div.skills{
 .top .photo{
     width: 100%;
     height: 80%;
-    background-image: url(http://7xonct.com1.z0.glb.clouddn.com/CV/designer&coder.png);
+    background-image: url('../img/mystic.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30em;
