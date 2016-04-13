@@ -2,10 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-compatible"content="IE=edge">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>个人博客</title>
     <meta name="keywords" content="有些路，只能一个人走 !">
     <meta name="description" content="">
+    <link type="text/css" rel="stylesheet" href="css/menu_style.css">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <script type="text/javascript" src="js/jquery1.42.min.js"></script>
@@ -21,11 +24,11 @@
   <!-- nav start-->
   <div id="nav">
     <ul>
-        <li><a href="index.html">首页</a></li>
-        <li><a href="suibi.html">生活随笔</a></li>
-        <li><a href="jishu.html">技术博客</a></li>
-        <li><a href="jiyi.html">记忆瞬间</a></li>
-        <li><a href="aboutme.html">关于我</a></li>
+        <li><a class="tooltip tooltip-style1" href="index.html">首页<span class="tooltip-content"><i class="fa fa-home fa-2x"></i></span></a></li>
+        <li><a class="tooltip tooltip-style2" href="suibi.html">生活随笔<span class="tooltip-content"><i class="fa fa-phone-square fa-2x"></i></span></a></li>
+        <li><a class="tooltip tooltip-style3" href="jishu.html">技术博客<span class="tooltip-content"><i class="fa fa-camera-retro fa-2x"></i></span></a></li>
+        <li><a class="tooltip tooltip-style4" href="jiyi.html">记忆瞬间<span class="tooltip-content"><i class="fa fa-book fa-2x"></i></span></a></li>
+        <li><a class="tooltip tooltip-style5" href="aboutme.html">关于我<span class="tooltip-content"><i class="fa fa-user fa-2x"></i></span></a></li>
         <div class="clear"></div>
     </ul>
   </div>
@@ -59,7 +62,7 @@
                 </div>
                 <!-- article end -->
                 <!-- <hr style="border:1px dashed #CBC7C7;width:700px;size:1" /> -->
-                <p style="border-bottom: 1px dashed #ddd;width:700px;size:1" />
+                <p style="border-bottom: 1px dashed #ddd;width:700px;" />
                 <!-- article start-->
               <div class="article">
                   <h3><a href="./articles/article_2.html" title="去哪网笔试面试总结">去哪网笔试面试总结</a></h3>
@@ -107,7 +110,7 @@
       <!-- left end -->
       <!-- right start -->
       <div id="c_right" class="right">
-          <div class="s_about">
+          <div class="s_about" >
                 <h2>个人资料</h2>
                 <img src="images/me.jpg" width="230px" height="230px"alt="博主" />
                 <p class="bz"><a href="aboutme.html">夏夏</a></p>
@@ -117,7 +120,9 @@
                 <p><a href="#" title="邮箱"></a><span class="left b_1">邮箱:&nbsp;&nbsp;adammfly@163.com</span>
                <div class="clear"> </div>
               </p>
+
             </div>
+            <p><a href="./myResume.html" title="简历">我的简历</a>
             <!-- 栏目分类 -->
             <div class="hd">
 
