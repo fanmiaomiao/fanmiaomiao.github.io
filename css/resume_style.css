@@ -153,15 +153,15 @@ section.message2{
     position: relative;
 }
 section.message2 div.img{
-    height: 16em;
-    width: 16em;
+    height: 14em;
+    width: 14em;
     border-radius: 50%;
     margin: 2.8em 1em 1em 3em;
     background:  url('../img/me.jpg') no-repeat 15px 16px;
     background-size: 16em;
     background-position: bottom;
-    border: 0.6em solid rgba(225,225,225, .3);
-    
+/*    border: 0.6em solid rgba(225,225,225, .3);*/
+
 }
 section.message2 dl{
     margin-top: -1em;
@@ -217,7 +217,7 @@ section.message2 div.img:hover,
     width: 35em;
     height: auto;
     position: absolute;
-    right: 18em;
+    right: 10em;
     top: 0.6em;
     padding: .5em .5em 1em;
     background: rgba(225,225,225, .1);
@@ -453,7 +453,7 @@ div.skills{
   -webkti-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  /*-webkit-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;*/
+  -webkit-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
   -moz-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
   -ms-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
   -o-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
@@ -633,6 +633,7 @@ div.skills{
     height: 6em;
     line-height: 6em;
     border-radius: 50%;
+/*    border: .1em dashed #fff;*/
     top: 2em;
     font-size: 1.8em;
 }
@@ -770,7 +771,4 @@ div.skills{
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-article,aside,dialog,footer,header,section,footer,nav,figure,menu{
-    display:block
 }
